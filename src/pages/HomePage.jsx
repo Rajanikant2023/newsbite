@@ -16,7 +16,7 @@ const HomePage = () => {
  })
   return (
     <div>
-      <Navbar/>
+     <Navbar/>
       <div className="row">
       {newsitem?.length > 0 ? (
         <div className="container">

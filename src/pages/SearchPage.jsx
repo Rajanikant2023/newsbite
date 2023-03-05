@@ -19,7 +19,7 @@ const SearchPage = () => {
   }, [searchItem]);
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Box>
         <Typography
           variant="h4"

@@ -31,7 +31,7 @@ const Navbar = () => {
     "other",
   ];
   return (
-    <div>
+    <div className="navbar">
       <Stack
         direction="row"
         alignItems="center"
