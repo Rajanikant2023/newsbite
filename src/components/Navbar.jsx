@@ -31,12 +31,12 @@ const Navbar = () => {
     "other",
   ];
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <Stack
         direction="row"
         alignItems="center"
         p={2}
-        sx={{ position: "sticky", top: 0, justifyContent: "space-between" }}
+        sx={{position:"fixed", top: 0, width:"100vw",background:"black"}}
       >
         <Paper sx={{ background: "transparent" }}>
           <IconButton
@@ -49,7 +49,7 @@ const Navbar = () => {
           </IconButton>
         </Paper>
         <SearchBar />
-        <Box>
+        <Box sx={{marginLeft:"400px"}}>
           <IconButton
             type="submit"
             sx={{ p: "10px", color: "red" }}
@@ -100,7 +100,7 @@ const Navbar = () => {
         </List>
         </Box>
       </Drawer>
-    </div>
+    </nav>
   );
 };
 

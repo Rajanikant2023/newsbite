@@ -20,6 +20,7 @@ const SearchPage = () => {
   return (
     <div>
       <Navbar/>
+      <div className="row">
       <Box>
         <Typography
           variant="h4"
@@ -46,6 +47,7 @@ const SearchPage = () => {
           )}
         </div>
       </Box>
+      </div>
     </div>
   );
 };

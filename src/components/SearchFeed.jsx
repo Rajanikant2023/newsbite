@@ -21,6 +21,7 @@ const SearchFeed = () => {
   return (
     <div>
       <Navbar/>
+      <div className="row">
       <Box>
         {" "}
         <Typography
@@ -48,6 +49,7 @@ const SearchFeed = () => {
           )}
         </Box>
       </Box>
+      </div>
     </div>
   );
 };
